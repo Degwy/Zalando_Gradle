@@ -1,0 +1,221 @@
+[
+  {
+    "source": "^(?:|I) click on \u0027(.*?)\u0027 wear$",
+    "steps": [
+      {
+        "name": "I click on \u0027Kids\u0027 wear",
+        "aggregatedDurations": {
+          "average": 3.938202129,
+          "median": 3.938202129
+        },
+        "durations": [
+          {
+            "duration": 3.938202129,
+            "location": "Add_Items_to_Bag.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:|I) search for the word \u0027(.*?)\u0027$",
+    "steps": [
+      {
+        "name": "I search for the word \u0027babies\u0027",
+        "aggregatedDurations": {
+          "average": 6.117722837,
+          "median": 6.117722837
+        },
+        "durations": [
+          {
+            "duration": 6.117722837,
+            "location": "Add_Items_to_Bag.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:|I) select \u0027(.*?)\u0027 size$",
+    "steps": [
+      {
+        "name": "I select \u00273K\u0027 size",
+        "aggregatedDurations": {
+          "average": 1.51314574,
+          "median": 1.51314574
+        },
+        "durations": [
+          {
+            "duration": 1.5439129,
+            "location": "Add_Items_to_Bag.feature:13"
+          },
+          {
+            "duration": 1.482378581,
+            "location": "Add_Items_to_Bag.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:|I) add the item to shopping basket$",
+    "steps": [
+      {
+        "name": "I add the item to shopping basket",
+        "aggregatedDurations": {
+          "average": 0.289641865,
+          "median": 0.289641865
+        },
+        "durations": [
+          {
+            "duration": 0.279278201,
+            "location": "Add_Items_to_Bag.feature:14"
+          },
+          {
+            "duration": 0.30000553,
+            "location": "Add_Items_to_Bag.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:|I) open the shopping basket$",
+    "steps": [
+      {
+        "name": "I open the shopping basket",
+        "aggregatedDurations": {
+          "average": 2.242676664,
+          "median": 2.242676664
+        },
+        "durations": [
+          {
+            "duration": 2.242676664,
+            "location": "Add_Items_to_Bag.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:|I) click on item number (\\d+)$",
+    "steps": [
+      {
+        "name": "I click on item number 1",
+        "aggregatedDurations": {
+          "average": 8.596640742,
+          "median": 8.596640742
+        },
+        "durations": [
+          {
+            "duration": 8.596640742,
+            "location": "Add_Items_to_Bag.feature:12"
+          }
+        ]
+      },
+      {
+        "name": "I click on item number 3",
+        "aggregatedDurations": {
+          "average": 8.066673632,
+          "median": 8.066673632
+        },
+        "durations": [
+          {
+            "duration": 8.066673632,
+            "location": "Add_Items_to_Bag.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:|I) want to start shoping using \u0027(.*?)\u0027$",
+    "steps": [
+      {
+        "name": "I want to start shoping using \u0027Zalando.UK\u0027",
+        "aggregatedDurations": {
+          "average": 7.716843078,
+          "median": 7.716843078
+        },
+        "durations": [
+          {
+            "duration": 7.716843078,
+            "location": "Add_Items_to_Bag.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:|I) want to make the following filters on search results:",
+    "steps": [
+      {
+        "name": "I want to make the following filters on search results:",
+        "aggregatedDurations": {
+          "average": 57.840515365,
+          "median": 57.840515365
+        },
+        "durations": [
+          {
+            "duration": 57.840515365,
+            "location": "Add_Items_to_Bag.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:|I) click back$",
+    "steps": [
+      {
+        "name": "I click back",
+        "aggregatedDurations": {
+          "average": 2.166434658,
+          "median": 2.166434658
+        },
+        "durations": [
+          {
+            "duration": 2.166434658,
+            "location": "Add_Items_to_Bag.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:|I) open \u0027(.*?)\u0027$",
+    "steps": [
+      {
+        "name": "I open \u0027https://www.zalando.com\u0027",
+        "aggregatedDurations": {
+          "average": 1.799113864,
+          "median": 1.799113864
+        },
+        "durations": [
+          {
+            "duration": 1.799113864,
+            "location": "Add_Items_to_Bag.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:|I) should see (\\d+) items in the shopping basket$",
+    "steps": [
+      {
+        "name": "I should see 2 items in the shopping basket",
+        "aggregatedDurations": {
+          "average": 1.226734377,
+          "median": 1.226734377
+        },
+        "durations": [
+          {
+            "duration": 1.226734377,
+            "location": "Add_Items_to_Bag.feature:20"
+          }
+        ]
+      }
+    ]
+  }
+]

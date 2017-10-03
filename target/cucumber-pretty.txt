@@ -1,0 +1,19 @@
+Feature: As​ a client​ I would​ like​ to​ add​ products​ to​ the​ shopping​ basket.
+
+  Background:                                      [90m# Add_Items_to_Bag.feature:3[0m
+    [32mGiven [0m[32mI open '[0m[32m[1mhttps://www.zalando.com[0m[32m'[0m         [90m# Steps.open_url(String)[0m
+    [32mAnd [0m[32mI want to start shoping using '[0m[32m[1mZalando.UK[0m[32m'[0m [90m# Steps.select_shop(String)[0m
+
+  Scenario: As​ a client​ I would​ like​ to​ add two​ products​ to​ the​ shopping​ basket. [90m# Add_Items_to_Bag.feature:7[0m
+    [32mGiven [0m[32mI click on '[0m[32m[1mKids[0m[32m' wear[0m                                                           [90m# Steps.click_on_category(String)[0m
+    [32mAnd [0m[32mI search for the word '[0m[32m[1mbabies[0m[32m'[0m                                                     [90m# Steps.search_for_word(String)[0m
+    [32mAnd [0m[32mI want to make the following filters on search results:[0m                            [90m# Steps.filter_search_results(DataTable)[0m
+    [32mAnd [0m[32mI click on item number [0m[32m[1m1[0m                                                           [90m# Steps.click_on_item(String)[0m
+    [32mAnd [0m[32mI select '[0m[32m[1m3K[0m[32m' size[0m                                                                 [90m# Steps.select_the_size(String)[0m
+    [32mAnd [0m[32mI add the item to shopping basket[0m                                                  [90m# Steps.add_to_shopping_basket()[0m
+    [32mAnd [0m[32mI click back[0m                                                                       [90m# Steps.click_back()[0m
+    [32mAnd [0m[32mI click on item number [0m[32m[1m3[0m                                                           [90m# Steps.click_on_item(String)[0m
+    [32mAnd [0m[32mI select '[0m[32m[1m3K[0m[32m' size[0m                                                                 [90m# Steps.select_the_size(String)[0m
+    [32mAnd [0m[32mI add the item to shopping basket[0m                                                  [90m# Steps.add_to_shopping_basket()[0m
+    [32mWhen [0m[32mI open the shopping basket[0m                                                        [90m# Steps.open_shopping_basket()[0m
+    [32mThen [0m[32mI should see [0m[32m[1m2[0m[32m items in the shopping basket[0m                                       [90m# Steps.both_items_should_be_displayed(Integer)[0m

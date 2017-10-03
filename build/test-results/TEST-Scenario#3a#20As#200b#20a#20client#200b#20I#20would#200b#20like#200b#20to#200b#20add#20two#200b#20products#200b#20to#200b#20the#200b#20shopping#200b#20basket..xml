@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: As​ a client​ I would​ like​ to​ add two​ products​ to​ the​ shopping​ basket." tests="15" skipped="0" failures="0" errors="0" timestamp="2017-10-03T21:19:47" hostname="MedSQA" time="101.698">
+  <properties/>
+  <testcase name="Given I open 'https://www.zalando.com'" classname="Scenario: As​ a client​ I would​ like​ to​ add two​ products​ to​ the​ shopping​ basket." time="0.001"/>
+  <testcase name="And I want to start shoping using 'Zalando.UK'" classname="Scenario: As​ a client​ I would​ like​ to​ add two​ products​ to​ the​ shopping​ basket." time="0.0"/>
+  <testcase name="Given I click on 'Kids' wear" classname="Scenario: As​ a client​ I would​ like​ to​ add two​ products​ to​ the​ shopping​ basket." time="0.001"/>
+  <testcase name="And I search for the word 'babies'" classname="Scenario: As​ a client​ I would​ like​ to​ add two​ products​ to​ the​ shopping​ basket." time="0.0"/>
+  <testcase name="And I want to make the following filters on search results:" classname="Scenario: As​ a client​ I would​ like​ to​ add two​ products​ to​ the​ shopping​ basket." time="0.0"/>
+  <testcase name="And I click on item number 1" classname="Scenario: As​ a client​ I would​ like​ to​ add two​ products​ to​ the​ shopping​ basket." time="0.0"/>
+  <testcase name="And I select '3K' size" classname="Scenario: As​ a client​ I would​ like​ to​ add two​ products​ to​ the​ shopping​ basket." time="0.0"/>
+  <testcase name="And I add the item to shopping basket" classname="Scenario: As​ a client​ I would​ like​ to​ add two​ products​ to​ the​ shopping​ basket." time="0.001"/>
+  <testcase name="And I click back" classname="Scenario: As​ a client​ I would​ like​ to​ add two​ products​ to​ the​ shopping​ basket." time="0.0"/>
+  <testcase name="And I click on item number 3" classname="Scenario: As​ a client​ I would​ like​ to​ add two​ products​ to​ the​ shopping​ basket." time="0.001"/>
+  <testcase name="And I select '3K' size" classname="Scenario: As​ a client​ I would​ like​ to​ add two​ products​ to​ the​ shopping​ basket." time="0.002"/>
+  <testcase name="And I add the item to shopping basket" classname="Scenario: As​ a client​ I would​ like​ to​ add two​ products​ to​ the​ shopping​ basket." time="0.0"/>
+  <testcase name="When I open the shopping basket" classname="Scenario: As​ a client​ I would​ like​ to​ add two​ products​ to​ the​ shopping​ basket." time="0.007"/>
+  <testcase name="Then I should see 2 items in the shopping basket" classname="Scenario: As​ a client​ I would​ like​ to​ add two​ products​ to​ the​ shopping​ basket." time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: As​ a client​ I would​ like​ to​ add two​ products​ to​ the​ shopping​ basket." time="105.343"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac) on port 11073
+Only local connections are allowed.
+]]></system-err>
+</testsuite>

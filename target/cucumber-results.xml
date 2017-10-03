@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="105.245687">
+<testcase classname="As​ a client​ I would​ like​ to​ add​ products​ to​ the​ shopping​ basket." name="As​ a client​ I would​ like​ to​ add two​ products​ to​ the​ shopping​ basket." time="105.245687">
+<system-out><![CDATA[Given I open 'https://www.zalando.com'......................................passed
+And I want to start shoping using 'Zalando.UK'..............................passed
+Given I click on 'Kids' wear................................................passed
+And I search for the word 'babies'..........................................passed
+And I want to make the following filters on search results:.................passed
+And I click on item number 1................................................passed
+And I select '3K' size......................................................passed
+And I add the item to shopping basket.......................................passed
+And I click back............................................................passed
+And I click on item number 3................................................passed
+And I select '3K' size......................................................passed
+And I add the item to shopping basket.......................................passed
+When I open the shopping basket.............................................passed
+Then I should see 2 items in the shopping basket............................passed
+]]></system-out>
+</testcase>
+</testsuite>
